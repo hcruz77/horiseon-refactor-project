@@ -25,28 +25,35 @@ header h1 .seo {
 }
 /* reduced css to use nav */
 
- nav {
+nav {
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+   
 }
 
+
+nav ul  {
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+
  
-/* removed ul li and added nav a element*/
-h nav a {
-    display: inline-block;
     margin-left: 25px;
+    list-style: none;
 }
 nav a:hover {
     color: gray
     text-decoration; 
 }
 
-a {
+li a {
     color: #ffffff;
     text-decoration: none;
+
 }
 
 p {
@@ -78,6 +85,8 @@ p {
     margin-left: 20px;
 }
 
+
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -89,20 +98,12 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefits section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
 .benefit-lead h3 {
     margin-bottom: 10px;
@@ -119,33 +120,22 @@ p {
     text-align: center;
 }
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 /* make note*/ 
-.content div {
+/* .content div {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} */
 
 .search-engine-optimization img {
     max-height: 200px;
