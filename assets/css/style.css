@@ -23,7 +23,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-/* reduced css to use nav */
+
 
 nav {
     padding-top: 15px;
@@ -32,7 +32,6 @@ nav {
     font-size: 20px;
    
 }
-
 
 nav ul  {
     align-items: center;
@@ -45,15 +44,15 @@ nav ul  {
     margin-left: 25px;
     list-style: none;
 }
-nav a:hover {
-    color: gray
-    text-decoration; 
-}
+
 
 li a {
     color: #ffffff;
     text-decoration: none;
-
+}
+li a:hover {
+    color: gray
+    text-decoration; 
 }
 
 p {
@@ -87,7 +86,7 @@ p {
 
 
 
-.benefits  {
+aside  {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -113,13 +112,13 @@ p {
 
 
 
-.benefit img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* make note*/ 
+
  .service {
     margin-bottom: 20px;
     padding: 50px;
@@ -128,13 +127,13 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-/*changed id tag symbols*/
-#search-engine-optimization img {
+/*changed id tag symbols, cleaned up repeating code */
+ img {
     max-height: 200px;
 }
 
 
-#online-reputation-management img {
+/* #online-reputation-management img {
     max-height: 200px;
 }
 
@@ -155,7 +154,7 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
 .footer {
     padding: 30px;
@@ -164,6 +163,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
-    font-size: 20px;
+.footer h4 {
+    font-size: 10px;
 }
